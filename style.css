@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Changa", sans-serif;
+}
+
+header{
+    background-color: #ddd;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap row-reverse;
+    font-size: x-large;
+}
+
+header a{
+    text-decoration: none;
+    color: #023876;
+}
+
+.center a{
+    margin: 40px;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+}
+
+.landing{
+    background-color: cadetblue;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    cursor: default;
+    flex-wrap: wrap;
+}
+
+.mleft{
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mright{
+    display: flex;
+    margin: 30px;
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+    font-size: x-large;
+}
+
+.content{
+    padding: 20px;
+    text-align: center;
+    flex-flow: wrap column;
+}
+
+.mbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.9s;
+}
+
+.box{
+    margin: 20px;
+    padding: 20px;
+    border: 1px#023876 solid;
+    border-bottom: 5px solid;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap column;
+    text-align: center;
+}
+
+span{
+    background-color: beige;
+    border-radius: 6px;
+    width: 60px;
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
+    background-color: #023876;
+    border-radius: 6px;
+    padding: 3px 15px;
+    transition: 0.4s;
+}
+
+.box a:hover{
+    text-decoration: none;
+    color:  #023876;
+    background-color: beige;
+    border-radius: 6px;
+    padding: 3px 15px;
+}
+
+.profs{
+    background-color: #023876;
+    padding: 10px;
+    text-align: center;
+    color: rgb(237, 236, 235);
+
+}
+
+.prof_info{
+    margin: 1%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    
+}
+
+.ps img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.ps{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.wwa{
+    color: rgb(237, 236, 235);
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.wwa img{
+    width: 200px;
+    margin: 20px;
+}
+
+.wwa p{
+    color: rgb(2, 56, 118);
+    font-weight: 700;
+}
+
+footer{
+    background-color: rgb(38, 42, 42);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: rgb(93, 144, 144);
+}
+
+.icon{
+    width: 170px;
+    margin: 20px;
+    text-align: center;
+}
+
